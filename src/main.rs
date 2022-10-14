@@ -7,7 +7,7 @@
 // 3f20_0028 gpio1_clear 1<<21 turns pin 21 off
 
 /* 
-    How to your the kernel
+    How to run the kernel
     1. Build Cargo Project: cargo rustc -- -C link-args=--script=./linker.ld
     2. arm-none-eabi-objdump -D target/armv7a-none-eabi/debug/rpi_os
     2.5. file target/armv7a-none-eabi/debug/rpi_os
